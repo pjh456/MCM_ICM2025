@@ -18,6 +18,6 @@ pip install -e .
 安装完毕后，直接在代码里引入即可
 
 ```py
-from pjh_mcm_templates import *
+from mcm_kit import *
 # ...
 ```
