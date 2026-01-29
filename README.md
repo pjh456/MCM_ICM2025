@@ -2,6 +2,23 @@
 
 包含模板和多个图表可视化工具等。
 
+## 项目架构
+
+```text
+MCM_ICM2025
+├── mcm_kit/                   # 模板源代码主包
+│   ├── evaluation/            # 评估工具：提供多模型数据评估方案
+│   ├── optimization           # 优化工具：暂无
+│   ├── prediction/            # 预测工具：暂无
+│   ├── visualization/         # 可视化工具：暂无
+│   └── __init__.py
+├── tests/                     # 单元测试 / 使用例目录
+│   ├── test_evaluation.py
+│   └── ...
+├── pyproject.toml                   # 安装配置文件
+└── README.md
+```
+
 ## 模板
 
 ### 快速安装
