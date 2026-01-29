@@ -3,10 +3,10 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pjh-mcm-templates"
-version = "0.0.1"
+name = "mcm-kit"
+version = "0.0.2"
 dependencies = [
-
+    "numpy", "pandas", "pytest"
 ]
 
 [tool.setuptools.packages.find]
